@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import githubBackground from '../assets/background.svg';
+
 export default createGlobalStyle`
   *{
     margin: 0;
@@ -8,12 +10,8 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-
   body {
+    background: #d0d0e5 url(${githubBackground}) no-repeat 70% top;
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
@@ -39,7 +37,13 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 16px serif;
+    font: 16px 'Open Sans', sans-serif;
+  }
+
+  #root{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
   }
 
   @media (prefers-reduced-motion: reduce) {

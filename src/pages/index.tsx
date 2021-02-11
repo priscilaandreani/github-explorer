@@ -1,4 +1,4 @@
-import FirstPage from './FirstPage/FirstPage';
+import Dashboard from './Dashboard/Dashboard';
 import SecondPage from './SecondPage/SecondePage';
 
-export { FirstPage, SecondPage };
+export { Dashboard, SecondPage };
