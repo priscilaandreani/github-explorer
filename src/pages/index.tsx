@@ -1,4 +1,4 @@
 import Dashboard from './Dashboard/Dashboard';
-import SecondPage from './SecondPage/SecondePage';
+import Repository from './Repository/Repository';
 
-export { Dashboard, SecondPage };
+export { Dashboard, Repository };
