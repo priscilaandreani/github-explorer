@@ -1,12 +1,7 @@
-## template react w/ typescript eslint prettier confs
+## github explorer
 
 dev_
 @priscilaandreani
-
-
-### why?
-
-<p>Because I hate to do it every single time. </p>
 
 
 ### tech
@@ -21,12 +16,10 @@ dev_
 * react-router-dom
 * axios
 
----
+### run
+```
+yarn install
+yarn star
+```
 
-* Create React App / Typescript
-* EditorConfig
-* Eslint
-* Prettier
-* GlobalStyle reset
-
-#### Do not use with Prettier - Code Formatter extension, it will break.
+![Exemple github explorer](src/assets/demo.gif)
